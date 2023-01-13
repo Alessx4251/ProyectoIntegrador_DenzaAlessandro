@@ -1,0 +1,73 @@
+.row {
+    padding: 20px;
+}
+
+/* estilo de foto de perfil */
+@media (min-width: 576px) {
+ #fotoPerfil {
+    border-radius: 100%;
+    position: absolute;
+    width: 18%;
+    box-shadow: 3px 3px 3px grey;
+    left: 1%;
+    top: 600px;
+ }
+}
+
+@media (max-width: 575px) {
+    #fotoPerfil {
+       border-radius: 100%;
+       position: absolute;
+       width: 38%;
+       box-shadow: 3px 3px 3px grey;
+       left: 30%;
+       top: 630px;
+    }
+   }
+
+@media (max-width: 399px) {
+    #fotoPerfil {
+       border-radius: 100%;
+       position: absolute;
+       width: 39%;
+       box-shadow: 3px 3px 3px grey;
+       left: 29%;
+       top: 703px;
+    }
+   }
+
+@media (max-width: 340px) {
+    #fotoPerfil {
+       border-radius: 100%;
+       position: absolute;
+       width: 40%;
+       box-shadow: 3px 3px 3px grey;
+       left: 28%;
+       top: 690px;
+    }
+   }
+   
+@media (max-width: 280px) {
+    #fotoPerfil {
+       border-radius: 100%;
+       position: absolute;
+       width: 42%;
+       box-shadow: 3px 3px 3px grey;
+       left: 27%;
+       top: 690px;
+    }
+   }   
+
+   
+
+div {
+    background-color: #a1b5cb;
+    text-align: center;
+}
+
+/*etiqueta nombres*/
+#nombre {
+    font-weight: bold;
+    margin-top: 25%;
+    
+}
